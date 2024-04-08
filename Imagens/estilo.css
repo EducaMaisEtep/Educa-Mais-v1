@@ -1,0 +1,119 @@
+/* Configurações globais do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    transition: 0.5s;
+}
+header .logo {
+    text-indent: -1000000000px;
+    background-image: url('Imagens/Logo.jpg'); /* Substitua pelo caminho da sua imagem de logo */
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajuste conforme necessário */
+    width: 200px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+    display: block; /* Garante que a imagem ocupa todo o espaço da div */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+    text-align: center; /* Centraliza a imagem na div, se necessário */
+    color: transparent; /* Torna o texto transparente, mas ainda acessível para leitores de tela */
+}
+/* Estilo do cabeçalho da página */
+header {
+    padding: 10px;
+    color: #fff;
+    background: blue;
+    text-align: center;
+}
+
+/* Estilo do rodapé da página */
+footer {
+    padding: 2.5px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    border: 0.5px solid rgb(0, 0, 197);
+}
+
+/* Estilos para os blocos numerados de 1 a 3 */
+#bloco-1, #bloco-2, #bloco-3 {
+    border: 3px solid black;
+    margin: 15px;
+    border-radius: 15px;
+    width: 25%;
+    display: flex;
+    /* Alinhar os blocos horizontalmente */
+    flex-direction: row;
+}
+
+/* Efeito de aumento de padding e transição ao passar o mouse sobre os blocos */
+#bloco-1:hover, #bloco-2:hover, #bloco-3:hover {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/* Estilo dos botões de navegação */
+nav button {
+    color: #fff;
+    background: orange;
+    margin-left: 50%;
+    border: 2px solid rgb(221, 120, 5);
+}
+/* Efeito de aumento de padding e transição ao passar o mouse sobre os botões */
+nav button:hover {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/* Efeito de aumento de padding e transição ao passar o mouse sobre os links de navegação */
+nav a:hover {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/* Estilo da imagem na navegação */
+nav img {
+    height: 200px;
+}
+
+/* Estilos específicos para telas menores que 720 pixels */
+@media screen and (max-width: 720px) {
+    body {
+        font-family: "Comic Sans MS";
+    }
+
+    nav a{
+        margin-left: 50%;
+    }
+    nav button{
+        margin-left: 50%;
+    }
+    /* Ajustes nos blocos para melhor adaptação em telas menores */
+    #bloco-1, #bloco-2, #bloco-3 {
+        border: 3px solid black;
+        margin: 15px;
+        border-radius: 15px;
+        width: 50%;
+        position: relative;
+        display: flex;
+        /* Alinhar os blocos verticalmente */
+        flex-direction: column;
+    }
+
+    /* Ajustes específicos para o bloco-2 em telas menores */
+    #bloco-2 {
+        left: 45%;
+    }
+
+    /* Efeito de aumento de padding e posição ao passar o mouse sobre o bloco-2 em telas menores */
+    #bloco-2:hover {
+        padding: 10px;
+        left: 250px;
+        transition: 0.5s;
+    }
+
+    /* Efeito de aumento de padding e transição ao passar o mouse sobre os blocos 1 e 3 em telas menores */
+    #bloco-1:hover, #bloco-3:hover {
+        padding: 10px;
+        transition: 0.5s;
+    }
+}

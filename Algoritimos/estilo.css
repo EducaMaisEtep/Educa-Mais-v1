@@ -1,0 +1,242 @@
+/* Configurações globais do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    transition: 0.5s;
+}
+
+/* Estilo do cabeçalho da página */
+header {
+    color: #fff;
+    background: url('../Imagens/borrado.jpg');
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#formulario-pag {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 35%;
+    margin-bottom: 1.8%;
+}
+#login{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 35%;
+    margin-bottom: 7%;
+    margin-top: 6.7%;
+}
+#enviar{
+    border: 1px solid #2e9756;
+    background-color: #3dbf6f;
+    border-radius: -5px;
+}
+#formulario-pag form {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"],
+.input-group input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.radio-group input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#enviar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px
+}
+#enviar{
+    margin-top: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(104, 202, 104);
+    border: 2.5px solid rgb(43, 107, 43);
+}
+/* Estilo do rodapé da página */
+footer {
+    padding: 20px;
+    background: #e2f4ff;
+    color: #000;
+    text-align: center;
+    border: 2.5px solid #8bd2ff;
+}
+
+/* Estilos para os blocos numerados de 1 a 3 */
+/* Estilos para os blocos numerados de 1 a 3 */
+/* Estilo para o contêiner principal */
+#paginas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 127.5px; /* Margem entre os blocos */
+    margin-bottom: 127.5px;
+}
+#inserir-codigo {
+    display: -ms-inline-flexbox;
+    width: 20%;
+    margin-left: 40%;
+    background: #fff;
+    justify-content: space-around;
+    margin-top: 6.2%; /* Margem entre os blocos */
+    margin-bottom: 18.3%;
+}
+
+#inserir-codigo div {
+    text-align: center;
+}
+
+/* Estilo para as imagens */
+#inserir-codigo img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilo para os botões */
+#inserir-codigo button {
+    display: block;
+    margin: 10px auto; /* Centraliza o botão */
+}
+#paginas div {
+    text-align: center;
+}
+
+/* Estilo para as imagens */
+#paginas img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilo para os botões */
+#paginas button {
+    display: block;
+    margin: 10px auto; /* Centraliza o botão */
+}
+#bloco-1,
+#bloco-2,
+#bloco-3 {
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 15px;
+}
+#bloco-codigo{
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+}
+#bloco-codigo button:hover{
+    padding: 15px;
+    transition: padding 0.5s;
+}
+#bloco-1:hover,
+#bloco-2:hover,
+#bloco-3:hover {
+    padding: 20px; /* Aumenta o padding ao redor do bloco */
+    transition: padding 0.5s; /* Transição para o padding */
+}
+
+#bloco-1:hover img,
+#bloco-2:hover img,
+#bloco-3:hover img{
+    width: 250px; /* Aumenta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: width 0.5s; /* Transição para a largura */
+}
+
+#bloco-1:hover a button,
+#bloco-2:hover a button,
+#bloco-3:hover a button {
+    padding: 20px; /* Aumenta o padding do botão */
+    transition: padding 0.5s; /* Transição para o padding */
+}
+
+
+
+nav a{
+    text-decoration: none;
+}
+
+/* Estilo dos botões de navegação */
+nav button {
+    color: #fff;
+    background: orange;
+    border: 2px solid rgb(221, 120, 5);
+}
+#bloco-codigo button{
+    padding: 5px;
+    color: #fff;
+    background: orange;
+    border: 2px solid rgb(221, 120, 5);
+}
+
+.logo{
+    text-indent: -1000000px;
+    background: url('../Imagens/site.jpg') no-repeat center ;
+    height: 200px;
+}
+/* Efeito de aumento de padding e transição ao passar o mouse sobre os links de navegação */
+nav a:hover {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/* Estilo da imagem na navegação */
+nav img {
+    height: 200px;
+}
+
+/* Estilos específicos para telas menores que 720 pixels */
+@media screen and (max-width: 720px) {
+    #paginas {
+        flex-direction: column; /* Altera a direção do flex para empilhar os blocos verticalmente */
+        align-items: center; /* Centraliza os blocos horizontalmente */
+    }
+
+    #bloco-1, #bloco-2, #bloco-3 {
+        width: 80%; /* Define a largura dos blocos para ocupar 80% da largura da tela */
+        margin: 15px auto; /* Centraliza os blocos verticalmente */
+        transition: padding 0.5s;
+    }
+}

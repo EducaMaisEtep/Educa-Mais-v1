@@ -1,0 +1,8 @@
+referente ao cadastro
+
+    codigo:
+        criar uma pagina para inseir o codigo
+        adicionar a opção de criar novo codigo onde vai colocar o cpf e vai criar um codigo e assim a pessoa
+         vai anotar pois esse codigo sera muito importante para conta
+        
+        o codigo ira do array novo para o usado
